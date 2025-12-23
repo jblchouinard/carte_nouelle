@@ -23,6 +23,11 @@ body {
   background: yellow;
   padding: 10px;
 }
+.box1 {
+  border: 5px ridge rgb(12, 174, 227);
+  background: rgb(0, 119, 255);
+  padding: 10px;
+}
 
 table {
   border: 3px dotted lime;
@@ -42,9 +47,37 @@ table {
 </h1>
 <body>
 
-<div class="marquee-box">
+<audio id="music" src="assets/music/minuit_chretien.mp3"></audio>
+
+<button onclick="document.getElementById('music').play()">
+  CLICK HERE FOR EPIC CHRISTMAS MUSIC 🎶
+</button>
+
+<br><br>
+
+
+<div class="box1">
 <marquee scrollamount="10" behavior="alternate">
-  ❤️ ÉMILY WAHLMAN ❤️ ÉMILY WAHLMAN ❤️ ÉMILY WAHLMAN ❤️ ÉMILY WAHLMAN ❤️ ÉMILY WAHLMAN ❤️ ÉMILY WAHLMAN ❤️ ÉMILY WAHLMAN ❤️ ÉMILY WAHLMAN 
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
+  <img src="assets/img/emily.png" height="50">
 </marquee>
 </div>
 
@@ -55,6 +88,7 @@ table {
 <img src="assets/gifs/grosse_face_santa.gif" height="120">
 <img src="assets/gifs/noel_bonhommes_neige.gif" height="120">
 <img src="assets/gifs/maison_sapin_noel.gif" height="120">
+<img src="assets/gifs/creche.gif" height="120">
 
 
 
@@ -68,9 +102,8 @@ table {
 </td>
 
 <td>
-  <h2><font color="cyan">L'hiver est arrivé!</font></h2>
+  <h2><font color="cyan">La neige a neigé! Allons skier!</font></h2>
   <p>
-    Étant la qualité discutable de mes talents pour créer une carte en papier, j'ai décidé de mettre mes petites connaissances en informatiques en oeuvre pour te créer une expérience immersive inoubliable.
     Pour célébrer la 2026e année de naissance du Christ, tu auras droit à un court de ski privé avec ton ÉPOUH dans les contrées charlevoisiennes, hébergement compris. <br>
     La date sera décidée d'un commun accord.
   </p>
@@ -89,8 +122,8 @@ table {
 <br>
 
 <!-- MARQUEE MESSAGE -->
-<marquee scrollamount="18" direction="right">
-  ❄️ ❄️ ❄️ LA NEIGE A NEIGÉ, ALLONS SKIER ❄️ ❄️ ❄️
+<marquee behavior="alternate" scrollamount="7" direction="right">
+
 </marquee>
 
 <br>
