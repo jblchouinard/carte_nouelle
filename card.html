@@ -28,7 +28,13 @@ body {
   background: rgb(0, 119, 255);
   padding: 10px;
 }
-
+.music_button {
+  background: rgb(0, 119, 255);
+  padding: 10px;
+  font-family: "Comic Sans MS", Arial, Helvetica;
+  font-size: 18px;
+  color: #00FF00;
+}
 table {
   border: 3px dotted lime;
   background: #000080;
@@ -42,16 +48,19 @@ table {
 <center>
 
 <!-- FLASHY TITLE -->
+<audio id="music" src="assets/music/minuit_chretien.mp3"></audio>
+
+
+<button class="music_button" onclick="document.getElementById('music').play()">
+  CLIQUE ICI POUR DÉBUTER L'AMBIENCE IMMERSIVE...
+</button>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<body>
 <h1 class="blink">
   ⭐⭐ JOYEUX NOËL ÉMILY WAHLMAN ⭐⭐
 </h1>
-<body>
 
-<audio id="music" src="assets/music/minuit_chretien.mp3"></audio>
-
-<button onclick="document.getElementById('music').play()">
-  CLICK HERE FOR EPIC CHRISTMAS MUSIC 🎶
-</button>
 
 <br><br>
 
